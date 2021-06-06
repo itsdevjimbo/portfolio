@@ -20,7 +20,7 @@ export default {
 </script>
 <style scoped>
     main {
-        background-image: url('/assets/main-bg.jpg');
+        background-image: url('~@/assets/main-bg.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

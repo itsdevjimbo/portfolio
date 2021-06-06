@@ -14,7 +14,7 @@
 </template>
 <style scoped>
     .onboarding {
-        background-image: url('/assets/onboarding-bg.jpg');
+        background-image: url('~@/assets/onboarding-bg.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
