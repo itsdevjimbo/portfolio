@@ -14,8 +14,8 @@
             with:
               node-version: '12'
           - name: Install packages
-            run: npm i
+            run: yarn install
           - name: Set Creds
             run: git config user.name "itsdevjimbo" && git config user.email "dev.jimbo10@gmail.com"
           - name: Deploy
-            run: npm run deploy
+            run: yarn deploy
