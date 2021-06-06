@@ -1,26 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-</template>
+  <main class="bg-fixed ">
+    <Onboarding />
+    <About />
+    <Skill />
+  </main>
+</template>   
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Onboarding from '@/components/Onboarding';
+import About from '@/components/About';
+import Skill from '@/components/Skill';
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
+    Onboarding,
+    About,
+    Skill
+  },
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+    main {
+        background-image: url('/assets/main-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 </style>
